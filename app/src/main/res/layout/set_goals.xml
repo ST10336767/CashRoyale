@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum Monthly Goal:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextMaxGoal"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:hint="e.g., 1000.00"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Minimum Monthly Goal:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextMinGoal"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:inputType="numberDecimal"
+        android:hint="e.g., 500.00" />
+    <Button
+        android:id="@+id/btnSetGoals"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Set Goals" />
+
+    <Button
+        android:id="@+id/btnSetLater"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Set Later" />
+
+
+</LinearLayout>

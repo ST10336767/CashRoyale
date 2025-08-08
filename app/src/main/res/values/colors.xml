@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--RapidTables https://www.rapidtables.com/web/color/index.html-->
+    <resources>
+        <color name="black">#FF000000</color>
+        <color name="white">#FFFFFFFF</color>
+        <color name="rokuPurple">#662d91</color>
+        <color name="red">#FF0000</color>
+        <color name="green">#00FF00</color>
+        <color name="blue">#0000FF</color>
+        <color name="yellow">#FFFF00</color>
+        <color name="pink">#FF1493</color>
+        <color name="orange">#FFA500</color>
+        <color name="colorPrimary">#6200EE</color>
+        <color name="green_700">#388E3C</color>
+        <color name="orange_700">#F57C00</color>
+        <color name="red_700">#D32F2F</color>
+    </resources>

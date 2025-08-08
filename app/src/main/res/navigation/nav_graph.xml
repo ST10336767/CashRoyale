@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/calenderFragment">
+
+    <fragment
+        android:id="@+id/calenderFragment"
+        android:name="com.example.cashroyale.fragments.CalenderFragment"
+        android:label="fragment_calender"
+        tools:layout="@layout/fragment_calender" >
+    <action
+        android:id="@+id/action_calenderFragment_to_goalFragment"
+        app:destination="@id/goalFragment" />
+        <action
+            android:id="@+id/action_calenderFragment_to_categoryListFragment"
+            app:destination="@id/categoryListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/goalFragment"
+        android:name="com.example.cashroyale.fragments.GoalFragment"
+        android:label="fragment_goal"
+        tools:layout="@layout/fragment_goal" >
+    <action
+        android:id="@+id/action_goalFragment_to_statisticsFragment"
+        app:destination="@id/statisticsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.cashroyale.fragments.StatisticsFragment"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/categoryListFragment"
+        android:name="com.example.cashroyale.fragments.CategoryListFragment"
+        android:label="CategoryListFragment"
+        tools:layout="@layout/fragment_category_list" />
+
+    <action
+        android:id="@+id/action_global_categoryListFragment"
+        app:destination="@id/categoryListFragment" />
+</navigation>
